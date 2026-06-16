@@ -26,6 +26,8 @@ dependencies {
     implementation(libs.compose.runtime)
     implementation(libs.compose.foundation)
     implementation(libs.compose.material3)
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
+
     implementation(libs.compose.ui)
     implementation(libs.compose.uiToolingPreview)
     debugImplementation(libs.compose.uiTooling)

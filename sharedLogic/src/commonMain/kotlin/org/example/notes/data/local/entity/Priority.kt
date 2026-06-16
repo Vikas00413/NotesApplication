@@ -6,5 +6,5 @@ import kotlinx.serialization.Serializable
 enum class Priority(var color: Int) {
     LOW(color = 0xFF4CAF50.toInt()), // Green
     MEDIUM(color = 0xFFFF9800.toInt()), // Orange
-    HIGH(color = 0xFFF44336.toInt()) // Red
+    HIGH(color = 0xFFCE93D8.toInt()) // Light purple
 }

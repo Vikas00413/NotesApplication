@@ -67,6 +67,7 @@ class NoteRepositoryImpl(val noteDao: NoteDao) : NotesRepository {
         )
     }
 
+    override suspend fun getNotesCount(): Int = noteDao.getNotesCount()
 
     override suspend fun syncPendingNotes(): Result<Int> {
         TODO("Not yet implemented")

@@ -18,6 +18,9 @@ interface NoteDao {
     @Query("SELECT * FROM notes ORDER BY lastUpdatedAt DESC")
     suspend fun getAllNotes(): List<NoteEntityDto>
 
+    @Query("SELECT COUNT(*) FROM notes")
+    suspend fun getNotesCount(): Int
+
      @Query("SELECT * FROM notes WHERE localId = :id LIMIT 1")
     suspend fun getNoteById(id: Int): NoteEntityDto?
 

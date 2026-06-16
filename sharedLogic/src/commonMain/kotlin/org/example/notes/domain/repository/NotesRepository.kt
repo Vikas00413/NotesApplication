@@ -23,6 +23,7 @@ interface NotesRepository {
         notes: Notes
     )
 
+    suspend fun getNotesCount(): Int
 
     suspend fun syncPendingNotes(): Result<Int>
 }

@@ -25,7 +25,9 @@ fun AppNavGraph(navController: NavHostController) {
                 onEditNote = { note ->
                     navController.navigate(EditNoteRoute(note = note))
                 },
-                onDeleteNote = { _ -> },
+                onDeleteNote = {
+
+                },
                 onAddNote = {
                     navController.navigate(AddNoteRoute)
                 },
