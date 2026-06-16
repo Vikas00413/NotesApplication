@@ -1,3 +1,7 @@
+# NotesApplication
+
+A Kotlin Multiplatform application where business logic is shared. Pure MVI Architecture app using Room DB and Koin DI.
+
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
 * [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
